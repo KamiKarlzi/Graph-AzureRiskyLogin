@@ -39,7 +39,7 @@ $SMTPRelay = "" # Onsite SMTP Relay
 $SMTPPort = 25
 $LoginDomain = "" # Your domain e.g. @whatever.com
 $HomeCountryCode = "" # Country Code e.g. GB for Great Britain
-$IPsToIgnore = @("","") # Comma Seperated Array of IPs to not report on
+$IPsToIgnore = @("") # Array of IPs to not report on, each IP in seperate quotes then seperated by comma  
 
 if ((get-date).DayOfWeek -eq 'Monday') {
     $DaysBack = 3
